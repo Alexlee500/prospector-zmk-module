@@ -77,7 +77,7 @@ config PROSPECTOR_FIXED_BRIGHTNESS
     depends on !PROSPECTOR_USE_AMBIENT_LIGHT_SENSOR
 
 config PROSPECTOR_IDLE_TIMEOUT_S
-    int "Screen idle timeout in seconds (0 = never off)
+    int "Screen idle timeout in seconds (0 = never off)"
     default 300
     help
       Time in seconds without key preses after which the display fades off.
